@@ -1,3 +1,6 @@
+import './styles/style.css';
+import './index.html'
+
 // DOM elements
 const addbtn = document.querySelector(".form__btn");
 const input = document.querySelector(".form__input");
@@ -11,7 +14,7 @@ const count = document.querySelector(".count");
 const filtersElement = document.querySelector(".controls__container");
 const filterDoneBtn = document.querySelector(".delete-complete");
 const borderedElements = document.querySelectorAll(".border");
-allBtn.classList.add("border");
+
 
 // variables
 let todoList = [{ label: "test", id: 1, checked: true }];
